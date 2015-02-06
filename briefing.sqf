@@ -11,6 +11,17 @@ player createDiarySubject ["changelog", "Changelog"];
 player createDiarySubject ["credits", "Credits"];
 
 
+player createDiaryRecord ["changelog",
+[
+"6 February 2015",
+"
+
+<br/> [Changed]  Some Store locations have been adjusted.
+<br/> [Fixed] a few small coding errors 
+<br/> [Added ] Digital Camo
+
+"
+]];
 
 player createDiaryRecord ["changelog",
 [
