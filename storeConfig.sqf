@@ -866,7 +866,7 @@ colorsArray = compileFinal str
 			["Sierra Whiskey Wild Dogs", "client\images\vehicleTextures\SWWD.jpg"],
 			["Red Digi Camo", "client\images\vehicleTextures\DMR.jpg"],
 			["Ice Camo", "client\images\vehicleTextures\IceCamo.jpg"],
-			["Snakeskin Camo", "client\images\vehicleTextures\snake.jpg"]
+			["Snakeskin Camo", "client\images\vehicleTextures\snake.jpg"],
 			["Digital Camo", "client\images\vehicleTextures\digicam.jpg"]
 		]
 	],
