@@ -76,6 +76,7 @@ _rank2 = [
 ];
 
 _rank3 = [
+"76561197960927169",  // CRE4MPIE
 "76561198010345274", //N3O
 "76561198003449278", //DTHECK
 "76561198032477175" //EVIL_BETTY
@@ -83,7 +84,6 @@ _rank3 = [
 ];
 
 _rank4 = [
-"76561197960927169",  // CRE4MPIE
 "76561198030714684", // Diesel
 "76561198010859952"  // Hagar
 
@@ -123,7 +123,7 @@ switch (true) do {
 			_player addItemToBackpack "FirstAidKit";
 			_player addItemToBackpack "FirstAidKit";
 			_player addHeadgear "H_HelmetLeaderO_ocamo";	
-			_player setObjectTextureGlobal  [0, "client\images\vehicleTextures\camo_fuel.jpg"];   			
+			_player setObjectTextureGlobal  [0, "client\images\vehicleTextures\digicam.jpg"];   			
 		};
 		
 			case (_uid in _SWWD):
