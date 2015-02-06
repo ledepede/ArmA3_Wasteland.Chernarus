@@ -10,17 +10,18 @@
 // Name, Building Position, Desk Direction (or [Desk Direction, Front Offset]), Excluded Buttons
 storeOwnerConfig = compileFinal str
 [
-	["GenStore1", 1, [270,0.25], []],
-	["GenStore2", 4, [310,0.25], []],
-	["GenStore3", 4, [340,0.25], []],
+	["GenStore1", 2, [26,0.25], []],
+	["GenStore2", 2, [125,0.25], []],
+	["GenStore3", 2, [130,0.25], []],
+	["GenStore4", 1, [240,0.25], []],
 
-	["GunStore2", 1, [138,0.25], []],
-	["GunStore3", 4, [130,0.25], []],
+	["GunStore2", 1, [100,0.25], []],
+	["GunStore3", 1, [310,0.25], []],
 	["GunStore4", 3, [209,0.25], []],
-	["GunStore5", 1, [270,0.25], []],
+	["GunStore5", 2, [310,0.25], []],
 
 	["VehStore1", 1, [270,0.25], ["Boats"]],
-	["VehStore2", 2, [285,0.25], ["Boats"]],
+	["VehStore2", 1, [47.3,0.25], ["Boats"]],
 	["VehStore3", 1, [245,0.25], ["Boats"]],
 	["VehStore4", 1, [175,0.25], ["Boats"]]
 ];
@@ -31,6 +32,7 @@ storeOwnerConfigAppearance = compileFinal str
 	['GenStore1', [['weapon', ''], ['uniform', 'U_B_PilotCoveralls']]],
 	['GenStore2', [['weapon', ''], ['uniform', 'U_O_PilotCoveralls']]],
 	['GenStore3', [['weapon', ''], ['uniform', 'U_I_pilotCoveralls']]],
+	['GenStore4', [['weapon', ''], ['uniform', 'U_I_pilotCoveralls']]],
 
 	
 	["GunStore2", [["weapon", "LMG_mas_M249_F_t"], ["uniform", "U_B_SpecopsUniform_sgg"]]],
