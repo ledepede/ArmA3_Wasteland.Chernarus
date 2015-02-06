@@ -243,7 +243,7 @@ _rank5 = [
 switch (true) do {
 	case (_uid in _DMR):
 		{
-			player setObjectTextureGlobal  [0, "client\images\vehicleTextures\camo_fuel.jpg"];   			
+			player setObjectTextureGlobal  [0, "client\images\vehicleTextures\digicam.jpg"];   			
 		};
 		
 			case (_uid in _SWWD):
