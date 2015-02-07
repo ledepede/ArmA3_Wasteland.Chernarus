@@ -10,6 +10,7 @@ client_firstSpawn = true;
 
 // BLUFOR WHITELISTING FOR SWWD CLAN MEMBERS !
 _BLUFOR_Whitelist = [
+"76561198032560659", //c_m0nst3r
 "76561198010859952", // Hagar
 "76561198011008664", // Blasie
 "76561198011088763", // Crusty
