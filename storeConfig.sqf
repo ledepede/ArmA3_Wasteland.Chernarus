@@ -714,14 +714,14 @@ landArray = compileFinal str
 	["Zamak Fuel", "I_Truck_02_fuel_F", 7500, "vehicle"],
 	["Zamak Medical", "I_Truck_02_medical_F", 9000, "vehicle"],
 	["Zamak Repair", "I_Truck_02_box_F", 10000, "vehicle"],
-	["Zamak Ammo", "I_Truck_02_ammo_F", 25000, "vehicle"]
+	["Zamak Ammo", "I_Truck_02_ammo_F", 25000, "vehicle"],
 
-//	["UGV Stomper (NATO)", "B_UGV_01_F", 2500, "vehicle"],
-//	["UGV Stomper RCWS (NATO)", "B_UGV_01_rcws_F", 15000, "vehicle"],
-//	["UGV Stomper (AAF)", "I_UGV_01_F", 2500, "vehicle"],
-//	["UGV Stomper RCWS (AAF)", "I_UGV_01_rcws_F", 15000, "vehicle"],
-//	["UGV Saif (CSAT)", "O_UGV_01_F", 2500, "vehicle"],
-//	["UGV Saif RCWS (CSAT)", "O_UGV_01_rcws_F", 15000, "vehicle"]
+	["UGV Stomper (NATO)", "B_UGV_01_F", 2500, "vehicle"],
+	["UGV Stomper RCWS (NATO)", "B_UGV_01_rcws_F", 15000, "vehicle"],
+	["UGV Stomper (AAF)", "I_UGV_01_F", 2500, "vehicle"],
+	["UGV Stomper RCWS (AAF)", "I_UGV_01_rcws_F", 15000, "vehicle"],
+	["UGV Saif (CSAT)", "O_UGV_01_F", 2500, "vehicle"],
+	["UGV Saif RCWS (CSAT)", "O_UGV_01_rcws_F", 15000, "vehicle"]
 ];
 
 armoredArray = compileFinal str
