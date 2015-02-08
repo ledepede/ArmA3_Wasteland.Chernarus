@@ -867,7 +867,9 @@ colorsArray = compileFinal str
 			["Red Digi Camo", "client\images\vehicleTextures\DMR.jpg"],
 			["Ice Camo", "client\images\vehicleTextures\IceCamo.jpg"],
 			["Snakeskin Camo", "client\images\vehicleTextures\snake.jpg"],
-			["Digital Camo", "client\images\vehicleTextures\digicam.jpg"]
+			["Digital Camo", "client\images\vehicleTextures\digicam.jpg"],
+			["Green Cloth Camo", "client\images\vehicleTextures\clothcamo.jpg"],
+			["Digital Hex Blue", "client\images\vehicleTextures\hex.jpg"]
 		]
 	],
 	[ // Kart colors
