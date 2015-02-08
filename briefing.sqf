@@ -13,11 +13,13 @@ player createDiarySubject ["credits", "Credits"];
 
 player createDiaryRecord ["changelog",
 [
-" 8 February 2015",
+"8 February 2015",
 "
 
 <br/> [Updated] Added new supporters
-<br/> [Added ] UGV's are back in 
+<br/> [Added] UGV's are back in !
+<br/> [Changed] Backend Optimizations
+
 
 "
 ]];
@@ -30,7 +32,7 @@ player createDiaryRecord ["changelog",
 
 <br/> [Changed]  Some Store locations have been adjusted.
 <br/> [Fixed] a few small coding errors 
-<br/> [Added ] Digital Camo
+<br/> [Added] Digital Camo
 
 "
 ]];
