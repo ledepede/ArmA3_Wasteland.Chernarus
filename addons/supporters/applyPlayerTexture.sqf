@@ -116,7 +116,7 @@ switch (true) do {
 		
 			case (_uid in _rank5):
 		{
-			player setObjectTextureGlobal  [0, "client\images\vehicleTextures\digicam.jpg"]; 		
+			player setObjectTextureGlobal  [0, "client\images\vehicleTextures\digicam.jpg"]; 	
 		};		
 	};
 	
