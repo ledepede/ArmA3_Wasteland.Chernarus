@@ -57,8 +57,8 @@ _rank4 = [
 ];
 
 _rank5 = [
-"76561197960927169"  // CRE4MPIE
-// "76561198047283625"   //an African Child
+"76561197960927169",  // CRE4MPIE
+"76561198047283625"   //an African Child
 ];
 
 switch (true) do {
@@ -90,7 +90,7 @@ switch (true) do {
 			_player addItemToBackpack "FirstAidKit";
 			_player addItemToBackpack "FirstAidKit";
 			_player addHeadgear "H_HelmetLeaderO_ocamo";	
-			_player setObjectTextureGlobal  [0, "client\images\vehicleTextures\digicam.jpg"];   			
+			_player setObjectTextureGlobal  [0, "client\images\vehicleTextures\digicam.jpg"];   	
 		};
 		
 			case (_uid in _SWWD):
@@ -121,7 +121,7 @@ switch (true) do {
 			_player addItemToBackpack "FirstAidKit";
 			_player addItemToBackpack "FirstAidKit";
 			_player addHeadgear "H_HelmetLeaderO_ocamo";
-			_player setObjectTextureGlobal  [0, "client\images\vehicleTextures\SWWD.jpg"];  	
+			_player setObjectTextureGlobal  [0, "client\images\vehicleTextures\SWWD.jpg"];
 		};
 		
 			case (_uid in _rank1):
@@ -175,7 +175,7 @@ switch (true) do {
 			_player addItemToUniform "FirstAidKit";
 			_player addItemToUniform "FirstAidKit";
 			_player addHeadgear "H_HelmetB_camo";	
-			_player setObjectTextureGlobal  [0, "client\images\vehicleTextures\redcamo.jpg"];			
+			_player setObjectTextureGlobal  [0, "client\images\vehicleTextures\redcamo.jpg"];		
 		};
 		
 			case (_uid in _rank3):
@@ -236,7 +236,7 @@ switch (true) do {
 			_player addItemToUniform "FirstAidKit";
 			_player addItemToUniform "FirstAidKit";
 			_player addHeadgear "H_PilotHelmetHeli_O";	
-			_player setObjectTextureGlobal  [0, "client\images\vehicleTextures\SWWD.jpg"];  		
+			_player setObjectTextureGlobal  [0, "client\images\vehicleTextures\SWWD.jpg"]; 
 		};	
 		
 					case (_uid in _rank5):
@@ -270,6 +270,7 @@ switch (true) do {
 			_player addItem "FirstAidKit";
 			_player addHeadgear "H_HelmetSpecO_blk";
 			_player setObjectTextureGlobal  [0, "client\images\vehicleTextures\digicam.jpg"];   
+
 		};	
 			
 		default
@@ -281,6 +282,6 @@ switch (true) do {
 		_player addMagazine "8Rnd_mas_9x18_Mag";
 		_player addMagazine "8Rnd_mas_9x18_Mag";
 		_player addItem "FirstAidKit";
-		_player selectWeapon "hgun_mas_mp7_F";
+		_player selectWeapon "hgun_mas_mp7_F"
 		};
 	};
