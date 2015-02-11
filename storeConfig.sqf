@@ -57,13 +57,16 @@ rifleArray = compileFinal str
 	["AK-74", "arifle_mas_aks74", 500],
 	["AKMS", "arifle_mas_akms", 800],
 	["AKSU-74", "arifle_mas_aks74u", 800],
+	["AK12", "arifle_mas_ak12_sf", 500],
+	["AK12 GL", "arifle_mas_ak12_sf_gl", 500],
 	
 	["M4A1 Carbine ", "arifle_mas_m4_d", 500],
 	["M4A1 Carbine M203 ", "arifle_mas_m4_m203_d", 650],
 	["HK416 Assault Rifle ", "arifle_mas_hk416c_d", 550],
 	["HK416 Assault Rifle M203 ", "arifle_mas_hk416_m203c_d", 700],
 	["H&K G36C", "arifle_mas_g36c", 700],
-	["M16A3", "arifle_mas_m16", 500],
+	["ARX Assault Rifle", "arifle_mas_arx", 500],
+	["ARX GL Assault Rifle", "arifle_mas_arx_gl", 500],
 		
 	["HK417 7.62mm Assault Rifle", "arifle_mas_hk417c_d", 700],
 	["HK417 7.62mm Assault Rifle M203", "arifle_mas_hk417_m203c_d", 800],
@@ -331,12 +334,22 @@ accessoriesArray = compileFinal str
 	["LRPS", "optic_LRPS", 175, "item"],
 	["SOS", "optic_SOS", 200, "item"],
 	["NVS", "optic_NVS", 500, "item"],
+	["NSPU Dual Purpose NVS", "optic_mas_nspu", 500, "item"],
 	["ACOG Red Dot (Camo)", "optic_mas_acog_rd_c", 125, "item"],
-	["Aimpoint Red Dot", "optic_mas_aim", 150, "item"],
+	["RCO (Camo)", "optic_mas_Hamr_camo", 125, "item"],
+	["ARCO (Camo)", "optic_mas_Arco_camo", 125, "item"],
+	["AK Kobra ACO(Camo)", "optic_mas_kobra_c", 125, "item"],
+	["ACO (Camo)", "optic_mas_Aco_camo", 125, "item"],
+	["ACOG (Camo)", "optic_mas_acog_c", 125, "item"],
+	["Aimpoint Red Dot (Camo)", "optic_mas_aim_c", 150, "item"],
 	["PSO Nightvision / Eotech (Camo)", "optic_mas_pso_nv_eo_c", 175, "item"],
 	["Zeiss Optic Sniper Scope (Camo)", "optic_mas_zeiss_c", 175, "item"],
 	["DMS (Camo)", "optic_mas_DMS_c", 200, "item"],
-	["PSO Sniper Scope", "optic_mas_pso", 500, "item"]
+	["PSO Sniper Scope", "optic_mas_pso", 500, "item"],
+	["Nightstalker Thermal Scope", "optic_Nightstalker", 85000, "item"],
+	["TWS Thermal Sniper Scope", "optic_tws", 75000, "item"],
+	["TERM IR Thermal Assault Scope", "optic_mas_term", 65000, "item"],
+	["Goshawk Thermal Assault Scope", "optic_mas_goshawk", 65000, "item"]
 ];
 
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
@@ -863,13 +876,15 @@ colorsArray = compileFinal str
 			["Pink Camo", "client\images\vehicleTextures\camo_pank.jpg"],
 			["Leopard", "client\images\vehicleTextures\leopard.jpg"],
 			["Hello Kitty", "client\images\vehicleTextures\kitty.jpg"],
-			["Sierra Whiskey Wild Dogs", "client\images\vehicleTextures\SWWD.jpg"],
+			["Sierra Whiskey Wild Dogs Clan Camo", "client\images\vehicleTextures\SWWD.jpg"],
+			["BMW Clan Camo", "client\images\vehicleTextures\BMW.jpg"],
 			["Red Digi Camo", "client\images\vehicleTextures\DMR.jpg"],
 			["Ice Camo", "client\images\vehicleTextures\IceCamo.jpg"],
+			["Skulls", "client\images\vehicleTextures\skulls.jpg"],
 			["Snakeskin Camo", "client\images\vehicleTextures\snake.jpg"],
-			["Digital Camo", "client\images\vehicleTextures\digicam.jpg"],
+			["DMR Digital Clan Camo", "client\images\vehicleTextures\digicam.jpg"],
 			["Green Cloth Camo", "client\images\vehicleTextures\clothcamo.jpg"],
-			["Digital Hex Blue", "client\images\vehicleTextures\hex.jpg"]
+			["Digital Hex Blue", "client\images\vehicleTextures\dcamo.jpg"]
 		]
 	],
 	[ // Kart colors

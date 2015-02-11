@@ -1,9 +1,14 @@
 // load player textures
 
 _uid = getPlayerUID player;
+
+
+
+_BMW = [
+"76561198086421593"  //littlemanPo
+];
 	
 _DMR = [
-
 "76561198101460017",  //shmuttyBong
 "76561198051425814",  //Archangel
 "76561198132352042",  //FaceCheck132
@@ -27,6 +32,8 @@ _DMR = [
 ];
 
 _SWWD = [
+"76561198031977865", //Bosbok aka Darkness
+"76561198054618058", //kill3r2000
 "76561198032560659", //c_m0nst3r
 "76561198011008664", // Blasie
 "76561198011088763", // Crusty
@@ -84,7 +91,12 @@ _rank5 = [
 ];
 	
 switch (true) do {
-	case (_uid in _DMR):
+		case (_uid in _BMW):
+		{
+			player setObjectTextureGlobal  [0, "client\images\vehicleTextures\BMW.jpg"];  	
+		};
+
+		case (_uid in _DMR):
 		{
 			player setObjectTextureGlobal  [0, "client\images\vehicleTextures\digicam.jpg"];   			
 		};
@@ -93,7 +105,7 @@ switch (true) do {
 		{
 			player setObjectTextureGlobal  [0, "client\images\vehicleTextures\SWWD.jpg"];  	
 		};
-		
+	
 			case (_uid in _rank1):
 		{
 			player setObjectTextureGlobal  [0, "client\images\vehicleTextures\camo_fuel.jpg"];  		

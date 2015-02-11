@@ -10,6 +10,43 @@ waitUntil {!isNull player};
 player createDiarySubject ["changelog", "Changelog"];
 player createDiarySubject ["credits", "Credits"];
 
+player createDiaryRecord ["changelog",
+[
+"11 February 2015",
+"
+
+<br/> [Added] M900 Heli to Aidrop list
+<br/> [Adjusted] Fuel and Repair Airdrop Vehicle prices
+<br/> [Fixed] Some minor back-end performance optimizations
+
+"
+]];
+
+
+player createDiaryRecord ["changelog",
+[
+"10 February 2015",
+"
+
+<br/> [Updated] Rank 3 Donator Loadouts
+<br/> [Moved] Some Arma 3 buildings and NEAF ATM
+
+"
+]];
+
+
+player createDiaryRecord ["changelog",
+[
+"9 February 2015",
+"
+
+<br/> [Updated] Weapon Mod to 1.8 Server Side
+<br/> [Added] Weapon Mod 1.8 Weapons and Scopes to Gunstore
+<br/> [Added] Thermal Scopes to Gunstore
+
+"
+]];
+
 
 player createDiaryRecord ["changelog",
 [

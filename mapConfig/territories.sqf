@@ -13,7 +13,7 @@
 
 [
 	["TERRITORY_CHERNO", "Chernogorsk", 1500],
-	["TERRITORY_ELEKTRO", "Elektrozovgorsk", 1500],
+	["TERRITORY_ELEKTRO", "Elektrozavodsk", 1500],
 	["TERRITORY_NWAF", "North West Airfield", 2000],
 	["TERRITORY_NEAF", "North East Airfield", 1500],
 	["TERRITORY_ROG", "Rog", 500],
