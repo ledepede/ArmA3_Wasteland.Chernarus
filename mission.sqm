@@ -71,6 +71,7 @@ class Mission
 		overviewText="CPTTS.GAMESERVERS.COM:9194";
 		resistanceWest=0;
 		startWeather=0.099999994;
+		startFog=0.5;
 		startWind=0.29999998;
 		startWaves=0.39999998;
 		forecastWeather=0.39999998;
@@ -309,7 +310,7 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item1
 				{
@@ -319,7 +320,7 @@ class Mission
 					vehicle="B_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item2
 				{
@@ -329,7 +330,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item3
 				{
@@ -339,7 +340,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item4
 				{
@@ -349,7 +350,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item5
 				{
@@ -359,7 +360,7 @@ class Mission
 					vehicle="B_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item6
 				{
@@ -369,7 +370,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item7
 				{
@@ -379,7 +380,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item8
 				{
@@ -389,7 +390,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item9
 				{
@@ -399,7 +400,7 @@ class Mission
 					vehicle="B_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item10
 				{
@@ -409,7 +410,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item11
 				{
@@ -419,7 +420,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item12
 				{
@@ -429,7 +430,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item13
 				{
@@ -439,7 +440,7 @@ class Mission
 					vehicle="B_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item14
 				{
@@ -449,7 +450,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item15
 				{
@@ -459,7 +460,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item16
 				{
@@ -469,7 +470,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item17
 				{
@@ -479,7 +480,7 @@ class Mission
 					vehicle="B_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item18
 				{
@@ -489,7 +490,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item19
 				{
@@ -499,7 +500,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item20
 				{
@@ -509,7 +510,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item21
 				{
@@ -519,7 +520,7 @@ class Mission
 					vehicle="B_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item22
 				{
@@ -529,7 +530,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item23
 				{
@@ -539,7 +540,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item24
 				{
@@ -549,7 +550,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item25
 				{
@@ -559,7 +560,7 @@ class Mission
 					vehicle="B_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item26
 				{
@@ -569,7 +570,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item27
 				{
@@ -579,7 +580,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item28
 				{
@@ -589,7 +590,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item29
 				{
@@ -599,7 +600,7 @@ class Mission
 					vehicle="B_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item30
 				{
@@ -609,7 +610,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item31
 				{
@@ -619,7 +620,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item32
 				{
@@ -629,7 +630,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item33
 				{
@@ -639,7 +640,7 @@ class Mission
 					vehicle="B_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item34
 				{
@@ -649,7 +650,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item35
 				{
@@ -659,7 +660,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item36
 				{
@@ -669,7 +670,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item37
 				{
@@ -679,7 +680,7 @@ class Mission
 					vehicle="B_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item38
 				{
@@ -689,7 +690,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item39
 				{
@@ -699,7 +700,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item40
 				{
@@ -709,7 +710,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item41
 				{
@@ -719,7 +720,7 @@ class Mission
 					vehicle="B_sniper_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item42
 				{
@@ -729,7 +730,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item43
 				{
@@ -739,7 +740,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item44
 				{
@@ -749,7 +750,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item45
 				{
@@ -759,7 +760,7 @@ class Mission
 					vehicle="B_diver_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item46
 				{
@@ -769,7 +770,7 @@ class Mission
 					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 				class Item47
 				{
@@ -779,7 +780,7 @@ class Mission
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					description="WHITELISTED FOR SWWD MEMBERS ONLY";
+					description="WHITELISTED";
 				};
 			};
 		};
@@ -2916,7 +2917,7 @@ class Mission
 		};
 		class Item49
 		{
-			position[]={8372.2471,305.134,10716.777};
+			position[]={8323.4111,303.46378,10706.965};
 			name="Mission_19";
 			type="Empty";
 			colorName="ColorOrange";
