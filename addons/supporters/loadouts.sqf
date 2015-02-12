@@ -229,7 +229,7 @@ switch (true) do {
 			_player addWeapon "arifle_mas_g3s_m203";
 			_player addPrimaryWeaponItem "muzzle_mas_snds_M";
 			_player addPrimaryWeaponItem "acc_mas_pointer_IR_b";
-			_player addPrimaryWeaponItem "optic_mas_Arco_blk";
+			_player addPrimaryWeaponItem "optic_Hamr";
 			_player addItem "HandGrenade";
 			_player addItem "HandGrenade";
 			_player addMagazine "20Rnd_mas_762x51_Stanag";
@@ -287,11 +287,11 @@ switch (true) do {
 			removeBackpack _player;
 			_player addBackpack "B_Carryall_oli";
 			_player addVest "V_PlateCarrierIAGL_dgtl";
-			_player forceAddUniform "U_I_G_resistanceLeader_F";
+			_player forceAddUniform "U_IG_leader";
 			_player addWeapon "arifle_mas_g3s_m203";
 			_player addPrimaryWeaponItem "muzzle_mas_snds_M";
 			_player addPrimaryWeaponItem "acc_mas_pointer_IR_b";
-			_player addPrimaryWeaponItem "optic_mas_Arco_blk";
+			_player addPrimaryWeaponItem "optic_Hamr";
 			_player addItem "HandGrenade";
 			_player addItem "HandGrenade";
 			_player addMagazine "20Rnd_mas_762x51_Stanag";
