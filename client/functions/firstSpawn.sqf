@@ -21,9 +21,9 @@ setViewDistance 1000;
 setObjectViewDistance 900;
 setTerrainGrid 40;
 	
-[format ['Hello %1! <br/>Please visit the change log for updates.<br/>Have fun and play fair!', name player], "Welcome to ZA#100 Chernarus"] spawn BIS_fnc_guiMessage;
-	
-[] execVM "addons\credits\welcome.sqf";
+
+//[] execVM "addons\credits\welcome.sqf";
+[] execVM "addons\credits\welcomeMessage.sqf";
 
 //play intro sound
  playsound "kickass"; 
