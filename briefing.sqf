@@ -17,7 +17,7 @@ player createDiaryRecord ["changelog",
 
 <br/> [Added] M900 Heli to Aidrop list
 <br/> [Adjusted] Fuel and Repair Airdrop Vehicle prices
-<br/> [Fixed] Some minor back-end performance optimizations
+<br/> [Fixed] Some minor back-end performance optimizations and changes
 
 "
 ]];
