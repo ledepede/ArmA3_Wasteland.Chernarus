@@ -345,11 +345,11 @@ accessoriesArray = compileFinal str
 	["PSO Nightvision / Eotech (Camo)", "optic_mas_pso_nv_eo_c", 175, "item"],
 	["Zeiss Optic Sniper Scope (Camo)", "optic_mas_zeiss_c", 175, "item"],
 	["DMS (Camo)", "optic_mas_DMS_c", 200, "item"],
-	["PSO Sniper Scope", "optic_mas_pso", 500, "item"],
-	["Nightstalker Thermal Scope", "optic_Nightstalker", 85000, "item"],
-	["TWS Thermal Sniper Scope", "optic_tws", 75000, "item"],
-	["TERM IR Thermal Assault Scope", "optic_mas_term", 65000, "item"],
-	["Goshawk Thermal Assault Scope", "optic_mas_goshawk", 65000, "item"]
+	["PSO Sniper Scope", "optic_mas_pso", 500, "item"]
+//	["Nightstalker Thermal Scope", "optic_Nightstalker", 85000, "item"],
+//	["TWS Thermal Sniper Scope", "optic_tws", 75000, "item"],
+//	["TERM IR Thermal Assault Scope", "optic_mas_term", 65000, "item"],
+//	["Goshawk Thermal Assault Scope", "optic_mas_goshawk", 65000, "item"]
 ];
 
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
@@ -616,8 +616,8 @@ genItemArray = compileFinal str
 	["Diving Goggles", "G_Diving", 100, "gogg"],
 	["Binoculars", "Binocular", 50, "binoc"],
 	["Rangefinder", "Rangefinder", 500, "binoc"],
-	["Laser Designator", "Laserdesignator", 2500, "binoc"],
-	["Laser Batteries", "Laserbatteries", 25, "mag"],
+//	["Laser Designator", "Laserdesignator", 2500, "binoc"],
+//	["Laser Batteries", "Laserbatteries", 25, "mag"],
 	["Chemlight (Blue)", "Chemlight_blue", 25, "mag"],
 	["Chemlight (Green)", "Chemlight_green", 25, "mag"],
 	["Chemlight (Yellow)", "Chemlight_yellow", 25, "mag"],
