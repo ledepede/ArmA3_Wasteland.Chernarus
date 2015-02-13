@@ -22,15 +22,10 @@ _BLUFOR_Whitelist = [
 ];
 
 if(playerSide == BLUFOR) then
-{
-	if(!((getPlayerUID player) in _BLUFOR_Whitelist)) then
 	{
-		hint "BLUFOR is Whitelisted for Sierra Whiskey Wild Dogs Only!";
-		titleFadeOut 9999;
-		titleText [format["BLUFOR is Whitelisted for Sierra Whiskey Wild Dogs Only!"],"PLAIN",0];
-		[] spawn{
-			sleep 5;
-			endMission "Enquire on Teamspeak! CPTTS.GAMESERVERS.COM:9194";
+	if(!((getPlayerUID player) in _BLUFOR_Whitelist)) then
+		{
+			["NotWhitelisted",false,true] call BIS_fnc_endMission;
+				sleep 5;
 		}
 	};
-};
