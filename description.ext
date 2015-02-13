@@ -78,6 +78,19 @@ class CfgFunctions
 		#include "addons\taw_vd\CfgFunctions.hpp"
 };
 
+class CfgDebriefing
+{
+	class NotWhitelisted
+	{
+		title = "WHOOOPS!";
+		subtitle = "CPTTS.GAMESERVERS.COM:9194";
+		description = "You are not allowed to use this slot because you are not whitelisted for BLUFOR, try OPFOR OR INDEPENDANT.";
+		pictureBackground = "mapConfig\Loading.jpg";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+};
+
 class CfgNotifications
 {
 	#include "client\CfgNotifications.hpp"
