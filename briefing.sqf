@@ -10,6 +10,20 @@ waitUntil {!isNull player};
 player createDiarySubject ["changelog", "Changelog"];
 player createDiarySubject ["credits", "Credits"];
 
+
+
+player createDiaryRecord ["changelog",
+[
+"13 February 2015",
+"
+
+<br/> [Removed] Thermals from the Gun Store
+<br/> [Removed] Thermals from the General Store
+<br/> [Changed] Whitelisting 
+"
+]];
+
+
 player createDiaryRecord ["changelog",
 [
 "11 February 2015",
