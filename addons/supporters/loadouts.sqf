@@ -4,7 +4,20 @@ _uid = getPlayerUID player;
 
 
 _BMW = [
-"76561198086421593"  //littlemanPo
+"76561198086421593", //littlemanPo
+"76561198008456016", //kapt_krazy
+"76561198009224506", //tokoloshe
+"76561198065673653", //Baasdaan
+"76561198069045901", //Equinox
+"76561198086421593", //vanilla vlakvark
+"76561198166270630", //vanilla vlakvark2
+"76561198142222519", //ROOFDIER
+"76561198069595017", //heinrich
+"76561198110828549", //terminat0r
+"76561198209078408", //JasonG6
+"76561198140069821", //Rorscharch
+"76561198082233087", //Rawbush
+"76561198009224506" //tokoloshe
 ];
 
 _DMR = [
@@ -80,7 +93,7 @@ switch (true) do {
 			_player addVest "V_PlateCarrierIAGL_dgtl";
 			_player forceAddUniform "U_B_CombatUniform_mcam_tshirt";
 			_player addWeapon "arifle_mas_l119_m203_v_sd";
-			_player addPrimaryWeaponItem "optic_mas_Hamr_camo";
+			_player addPrimaryWeaponItem "optic_mas_Holosight_camo";
 			_player addMagazine "30Rnd_mas_556x45_Stanag";
 			_player addMagazine "30Rnd_mas_556x45_Stanag";
 			_player addMagazine "1Rnd_HE_Grenade_shell";
@@ -111,7 +124,7 @@ switch (true) do {
 			_player addVest "V_PlateCarrierIAGL_dgtl";
 			_player forceAddUniform "U_B_GhillieSuit";
 			_player addWeapon "arifle_mas_l119_m203_v_sd";
-			_player addPrimaryWeaponItem "optic_mas_Hamr_camo";
+			_player addPrimaryWeaponItem "optic_mas_Holosight_camo";
 			_player addMagazine "30Rnd_mas_556x45_Stanag";
 			_player addMagazine "30Rnd_mas_556x45_Stanag";
 			_player addMagazine "1Rnd_HE_Grenade_shell";
