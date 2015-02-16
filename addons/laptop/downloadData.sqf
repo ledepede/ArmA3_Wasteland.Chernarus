@@ -107,7 +107,6 @@ T8_fnc_ActionLaptop =
 				_newFile = T8_varFileSize;
 				ctrlSetText [ 8001, "Download finished!" ];	
 				T8_varDiagAbort = true;
-//				player sideChat T8_varTLine04;
 				T8_varDownSucce = true;
 				
 				_laptop setVariable [ "Done", true, true ];
@@ -127,8 +126,6 @@ T8_fnc_ActionLaptop =
 
 		player setVariable ["cmoney", (player getVariable ["cmoney", 0]) + _totalMoney, true];
 				
-//				axeDiagLog = format ["%1 hacked laptop for %2 money", player, _totalMoney];
-//				publicVariableServer "axeDiagLog";
 			};
 			
 			ctrlSetText [ 8002, format [ "%1 kb/s", _dlRate ] ];		
