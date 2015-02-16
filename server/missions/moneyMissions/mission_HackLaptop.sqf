@@ -82,7 +82,7 @@ _successExec =
 	// Mission completed
 	RemoveLaptopHandler = _laptop;
 	publicVariable "RemoveLaptopHandler";
-//	{ deleteVehicle _x } forEach [_bunker, _laptop, _obj];
+	{ deleteVehicle _x } forEach [_laptop,_table ];
 
 	_successHintMessage = format ["The laptop is hacked. Well done!"];
 };
