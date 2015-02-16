@@ -1,11 +1,8 @@
 /*
 =======================================================================================================================
-
 	downloadData - script to download data from a laptop and because of this complete a task (as example)
-
 	File:		downloadData.sqf
 	Author:		T-800a
-
 =======================================================================================================================
 */
 
@@ -15,7 +12,7 @@ T8_varTLine01 = "Download cancelled!";				// download aborted
 T8_varTLine02 = "Download already in progress by someone else!";			// download already in progress by someone else
 T8_varTLine03 = "Download started!";					// download started
 T8_varTLine04 = "Download finished! $25,000 added to your inventory!";				// download finished
-T8_varTLine05 = "##  Hack Bank Accounts  ##";				// line for the addaction
+T8_varTLine05 = "##  Hack Player Bank Accounts  ##";				// line for the addaction
 
 T8_varDiagAbort = false;
 T8_varDownSucce = false;
@@ -111,9 +108,10 @@ T8_fnc_ActionLaptop =
 				
 				_laptop setVariable [ "Done", true, true ];
 				
-				//After mission success
+	
+	//After mission success
 		_totalMoney = 0;
-	{    
+		{    
 			if (isPlayer _x)  then {    
 			_bmoney = _x getVariable ["bmoney",0];
 			if ( _bmoney > 0 ) then { //might as well check for zero's
@@ -121,11 +119,16 @@ T8_fnc_ActionLaptop =
 			_x setVariable [ "bmoney", (_bmoney - _fivePercent), true ];
 			_totalMoney = _totalMoney + _fivePercent;
 		}
-	}
-} forEach playableUnits;
+			}
+		} forEach playableUnits;
 
-		player setVariable ["cmoney", (player getVariable ["cmoney", 0]) + _totalMoney, true];
-				
+			
+			if (_totalMoney > 25000) then {
+			player setVariable ["cmoney", (player getVariable ["cmoney", 0]) + _totalMoney, true];
+			}
+		else 	{
+			player setVariable ["cmoney", (player getVariable ["cmoney", 0]) + 25000, true];	
+				};
 			};
 			
 			ctrlSetText [ 8002, format [ "%1 kb/s", _dlRate ] ];		
