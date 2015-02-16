@@ -11,6 +11,19 @@ player createDiarySubject ["changelog", "Changelog"];
 player createDiarySubject ["credits", "Credits"];
 
 
+player createDiaryRecord ["changelog",
+[
+"15 February 2015",
+"
+
+<br/> [Added] Safezones around General Stores
+<br/> [Added] BMW supporter loadouts
+<br/> [Added] 20 New Convoy Routes
+
+
+"
+]];
+
 
 player createDiaryRecord ["changelog",
 [
