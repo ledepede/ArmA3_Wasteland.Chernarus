@@ -51,7 +51,7 @@ _setupObjects =
 	_aiGroup setBehaviour "COMBAT";	
 	
 	_vehicleName = "Laptop";
-	_missionHintText = format ["<t color='%2'>Hackers</t> are using a laptop to hack your bank accounts. Stop them before it's too late and take the money for yourself! Hacking the laptop successfully will steal 5 Percent of each online players bank accounts!", _vehicleName, moneyMissionColor];
+	_missionHintText = format ["<t color='%2'>Hackers</t> are using a laptop to hack your bank accounts. Hacking the laptop successfully will steal cash from each on-line players bank accounts!", _vehicleName, moneyMissionColor];
 };
 
 _waitUntilMarkerPos = nil;
@@ -79,7 +79,7 @@ _successExec =
 	publicVariable "RemoveLaptopHandler";
 	{ deleteVehicle _x } forEach [_bunker, _laptop, _obj];
 
-	_successHintMessage = format ["The laptop is hacked and the smugglers are dead. Well done!"];
+	_successHintMessage = format ["The laptop is hacked. Well done!"];
 };
 
 _this call moneyMissionProcessor;
