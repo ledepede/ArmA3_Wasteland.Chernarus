@@ -20,6 +20,7 @@ player createDiaryRecord ["changelog",
 <br/> [Added] BMW supporter loadouts
 <br/> [Added] 20 New Convoy Routes
 <br/> [Changed] Hack Laptop now steals from players bank accounts
+<br/> [Changed] Mission Objects should no longer delete after success
 
 
 
