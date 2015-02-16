@@ -19,6 +19,8 @@ player createDiaryRecord ["changelog",
 <br/> [Added] Safezones around General Stores
 <br/> [Added] BMW supporter loadouts
 <br/> [Added] 20 New Convoy Routes
+<br/> [Changed] Hack Laptop now steals from players bank accounts
+
 
 
 "

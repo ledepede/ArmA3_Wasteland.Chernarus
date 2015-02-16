@@ -62,10 +62,11 @@ T8_fnc_abortActionLaptop =
 
 T8_fnc_ActionLaptop =
 {
-	private [ "_laptop", "_caller", "_id", "_cIU" ];
+	private [ "_laptop", "_caller", "_id", "_cIU","_totalMoney","_fivePercent" ];
 	_laptop = _this select 0;
 	_caller = _this select 1;
 	_id = _this select 2;
+	
 	
 	
 	_cIU = _laptop getVariable [ "InUse", false ];
@@ -106,15 +107,28 @@ T8_fnc_ActionLaptop =
 				_newFile = T8_varFileSize;
 				ctrlSetText [ 8001, "Download finished!" ];	
 				T8_varDiagAbort = true;
-				player sideChat T8_varTLine04;
+//				player sideChat T8_varTLine04;
 				T8_varDownSucce = true;
 				
 				_laptop setVariable [ "Done", true, true ];
 				
-				player setVariable ["cmoney", (player getVariable ["cmoney", 0]) + 25000, true];
+				//After mission success
+		_totalMoney = 0;
+	{    
+			if (isPlayer _x)  then {    
+			_bmoney = _x getVariable ["bmoney",0];
+			if ( _bmoney > 0 ) then { //might as well check for zero's
+			_fivePercent = round(0.05*_bmoney);
+			_x setVariable [ "bmoney", (_bmoney - _fivePercent), true ];
+			_totalMoney = _totalMoney + _fivePercent;
+		}
+	}
+} forEach playableUnits;
+
+		player setVariable ["cmoney", (player getVariable ["cmoney", 0]) + _totalMoney, true];
 				
-				axeDiagLog = format ["%1 hacked laptop for %2 money", player, 25000];
-				publicVariableServer "axeDiagLog";
+//				axeDiagLog = format ["%1 hacked laptop for %2 money", player, _totalMoney];
+//				publicVariableServer "axeDiagLog";
 			};
 			
 			ctrlSetText [ 8002, format [ "%1 kb/s", _dlRate ] ];		

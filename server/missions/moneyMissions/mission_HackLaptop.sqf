@@ -51,7 +51,7 @@ _setupObjects =
 	_aiGroup setBehaviour "COMBAT";	
 	
 	_vehicleName = "Laptop";
-	_missionHintText = format ["<t color='%2'>Hackers</t> are using a laptop to hack bank accounts. Stop them before it's too late and take the money for yourself !", _vehicleName, moneyMissionColor];
+	_missionHintText = format ["<t color='%2'>Hackers</t> are using a laptop to hack your bank accounts. Stop them before it's too late and take the money for yourself! Hacking the laptop successfully will steal 5 Percent of each online players bank accounts!", _vehicleName, moneyMissionColor];
 };
 
 _waitUntilMarkerPos = nil;
