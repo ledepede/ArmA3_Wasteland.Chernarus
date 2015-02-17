@@ -59,7 +59,7 @@ T8_fnc_abortActionLaptop =
 
 T8_fnc_ActionLaptop =
 {
-	private [ "_laptop", "_caller", "_id", "_cIU","_totalMoney","_fivePercent" ];
+	private [ "_laptop", "_caller", "_id", "_cIU","_totalMoney","_fivePercent","_playerSide"];
 	_laptop = _this select 0;
 	_caller = _this select 1;
 	_id = _this select 2;
@@ -109,28 +109,74 @@ T8_fnc_ActionLaptop =
 				_laptop setVariable [ "Done", true, true ];
 				
 	
-	//After mission success
+
+	
+	
+	// Give Reward to the hacker
 		_totalMoney = 0;
+		_playerSide = side group player;
+		switch (_playerSide) do {
+		
+	case WEST: 
+	{	
 		{    
-			if (isPlayer _x)  then {    
+			if (isPlayer _x) then {
+			if  (side _x == WEST) then {}
+			else {
 			_bmoney = _x getVariable ["bmoney",0];
 			if ( _bmoney > 0 ) then { //might as well check for zero's
-			_fivePercent = round(0.05*_bmoney);
+			_fivePercent = round(0.035*_bmoney);
+			_x setVariable [ "bmoney", (_bmoney - _fivePercent), true ];
+			_totalMoney = _totalMoney + _fivePercent;
+		}
+			}
+				}
+		} forEach playableUnits;
+	}; 
+	
+	case EAST: 
+	{	
+		{    
+			if (isPlayer _x) then {
+			if  (side _x == EAST) then {}
+			else {
+			_bmoney = _x getVariable ["bmoney",0];
+			if ( _bmoney > 0 ) then { //might as well check for zero's
+			_fivePercent = round(0.035*_bmoney);
+			_x setVariable [ "bmoney", (_bmoney - _fivePercent), true ];
+			_totalMoney = _totalMoney + _fivePercent;
+		}
+			}
+				}	
+		} forEach playableUnits;
+	}; 
+			
+	default
+	{
+		{    
+			if (isPlayer _x) then {
+			_bmoney = _x getVariable ["bmoney",0];
+			if ( _bmoney > 0 ) then { //might as well check for zero's
+			_fivePercent = round(0.035*_bmoney);
 			_x setVariable [ "bmoney", (_bmoney - _fivePercent), true ];
 			_totalMoney = _totalMoney + _fivePercent;
 		}
 			}
 		} forEach playableUnits;
-
+	
+		   }; 
+							};
 			
 			if (_totalMoney > 25000) then {
 			player setVariable ["cmoney", (player getVariable ["cmoney", 0]) + _totalMoney, true];
+			systemChat format["You have hacked players bank accounts to the value of $%1",_totalMoney];	
 			}
 		else 	{
-			player setVariable ["cmoney", (player getVariable ["cmoney", 0]) + 25000, true];	
+			player setVariable ["cmoney", (player getVariable ["cmoney", 0]) + 25000, true];
+			systemChat format["You have hacked players bank accounts to the value of $25,000"];				
 				};
 			};
-			
+					
 			ctrlSetText [ 8002, format [ "%1 kb/s", _dlRate ] ];		
 			ctrlSetText [ 8004, format [ "%1 kb", _newFile ] ];				
 			
