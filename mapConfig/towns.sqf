@@ -12,7 +12,7 @@
 	["Town_2", 100, "Dubrovka"],
 	["Town_3", 100, "Nadezhdino"],
 	["Town_4", 100, "Solnichniy"],
-	["Town_5", 100, "Krasnostav"],
+	["Town_5", 75, "Krasnostav"],
 	["Town_6", 100, "Pogorevka"],
 	["Town_7", 100, "Polana"],
 	["Town_8", 300, "Zelenogorsk"],
@@ -24,7 +24,7 @@
 	["Town_14", 100, "Grishino"],  
 	["Town_15", 100, "Lopatino"],
 	["Town_16", 100, "Kamyshovo"],
-	["Town_17", 500, "Elektrozavodsk"],
+	["Town_17", 300, "Elektrozavodsk"],
 	["Town_18", 100, "Petrovka"],
 	["Town_19", 100, "Pushtoshka"],
 	["Town_20", 100, "Kamenka"]
