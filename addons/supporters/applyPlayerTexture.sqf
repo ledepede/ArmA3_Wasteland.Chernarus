@@ -18,7 +18,8 @@ _BMW = [
 "76561198209078408", //JasonG6
 "76561198140069821", //Rorscharch
 "76561198082233087", //Rawbush
-"76561198009224506" //tokoloshe
+"76561198009224506", //tokoloshe
+"76561198063605527" //aztekslasher
 ];
 	
 _DMR = [
@@ -102,6 +103,11 @@ _rank5 = [
 "76561198047283625"   //an African Child
 
 ];
+
+_rank6 = [
+"76561198037102967"  // Antagonist
+];
+
 	
 switch (true) do {
 		case (_uid in _BMW):
@@ -142,6 +148,11 @@ switch (true) do {
 			case (_uid in _rank5):
 		{
 			player setObjectTextureGlobal  [0, "client\images\vehicleTextures\digicam.jpg"]; 	
+		};
+			case (_uid in _rank6):
+		{
+			player setObjectTextureGlobal  [0, "client\images\vehicleTextures\ant.jpg"]; 	
 		};		
+		
 	};
 	
