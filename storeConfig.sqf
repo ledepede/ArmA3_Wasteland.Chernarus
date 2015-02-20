@@ -880,6 +880,7 @@ colorsArray = compileFinal str
 			["Pink Camo", "client\images\vehicleTextures\camo_pank.jpg"],
 			["Leopard", "client\images\vehicleTextures\leopard.jpg"],
 			["Hello Kitty", "client\images\vehicleTextures\kitty.jpg"],
+			["Antagonist's Custom Camo", "client\images\vehicleTextures\ant.jpg"],
 			["Sierra Whiskey Wild Dogs Clan Camo", "client\images\vehicleTextures\SWWD.jpg"],
 			["BMW Clan Camo", "client\images\vehicleTextures\BMW.jpg"],
 			["Red Digi Camo", "client\images\vehicleTextures\DMR.jpg"],
