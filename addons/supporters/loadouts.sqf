@@ -17,7 +17,8 @@ _BMW = [
 "76561198209078408", //JasonG6
 "76561198140069821", //Rorscharch
 "76561198082233087", //Rawbush
-"76561198009224506" //tokoloshe
+"76561198009224506", //tokoloshe
+"76561198063605527" //aztekslasher
 ];
 
 _DMR = [
@@ -80,6 +81,11 @@ _rank5 = [
 "76561198047283625"   //an African Child
 ];
 
+_rank6 = [
+"76561198037102967"  // Antagonist
+];
+
+
 switch (true) do {
 	case (_uid in _BMW):
 		{
@@ -89,15 +95,14 @@ switch (true) do {
 			removeAllWeapons _player;
 			removeVest _player;
 			removeBackpack _player;
-			_player addBackpack "B_Bergen_mcamo";
+			_player addBackpack "B_Bergen_sgg";
 			_player addVest "V_PlateCarrierIAGL_dgtl";
-			_player forceAddUniform "U_B_CombatUniform_mcam_tshirt";
-			_player addWeapon "arifle_mas_l119_m203_v_sd";
-			_player addPrimaryWeaponItem "optic_mas_Holosight_camo";
+			_player forceAddUniform "U_BG_Guerilla2_1";
+			_player addWeapon "arifle_mas_m4vlt";
+			_player addPrimaryWeaponItem "optic_Arco";
 			_player addMagazine "30Rnd_mas_556x45_Stanag";
 			_player addMagazine "30Rnd_mas_556x45_Stanag";
-			_player addMagazine "1Rnd_HE_Grenade_shell";
-			_player addMagazine "1Rnd_HE_Grenade_shell";
+			_player addItemtoBackpack "HandGrenade";
 			_player addItemtoBackpack "HandGrenade";
 			_player addWeapon "hgun_mas_glocksf_F";
 			_player addHandgunItem "muzzle_mas_snds_L";
@@ -108,7 +113,8 @@ switch (true) do {
 			_player addWeapon "Rangefinder";
 			_player addItemToBackpack "FirstAidKit";
 			_player addItemToBackpack "FirstAidKit";
-			_player addHeadgear "H_Cap_brn_SPECOPS";
+			_player addHeadgear "H_Cap_tan";
+			_player addGoggles "G_mas_wpn_wrap_mask_t";
 			_player setObjectTextureGlobal  [0, "client\images\vehicleTextures\BMW.jpg"];
 		};
 
@@ -123,7 +129,7 @@ switch (true) do {
 			_player addBackpack "B_Carryall_ocamo";
 			_player addVest "V_PlateCarrierIAGL_dgtl";
 			_player forceAddUniform "U_B_GhillieSuit";
-			_player addWeapon "arifle_mas_l119_m203_v_sd";
+			_player addWeapon "arifle_mas_hk416_gl";
 			_player addPrimaryWeaponItem "optic_mas_Holosight_camo";
 			_player addMagazine "30Rnd_mas_556x45_Stanag";
 			_player addMagazine "30Rnd_mas_556x45_Stanag";
@@ -300,8 +306,8 @@ switch (true) do {
 			removeBackpack _player;
 			_player addBackpack "B_Carryall_oli";
 			_player addVest "V_PlateCarrierIAGL_dgtl";
-			_player forceAddUniform "U_IG_leader";
-			_player addWeapon "arifle_mas_g3s_m203";
+			_player forceAddUniform "U_O_Wetsuit";
+			_player addWeapon "arifle_mas_fal_m203";
 			_player addPrimaryWeaponItem "muzzle_mas_snds_M";
 			_player addPrimaryWeaponItem "acc_mas_pointer_IR_b";
 			_player addPrimaryWeaponItem "optic_Hamr";
@@ -322,10 +328,44 @@ switch (true) do {
 			_player addItem "FirstAidKit";
 			_player addItem "FirstAidKit";
 			_player addGoggles "G_Balaclava_combat";
-			_player addHeadgear "H_Cap_blk_Raven";
+			_player addHeadgear "H_HelmetB_camo";
 			_player setObjectTextureGlobal  [0, "client\images\vehicleTextures\digicam.jpg"];   
 
 		};	
+			
+				case (_uid in _rank6):
+		{
+			removeAllWeapons _player;
+			removeVest _player;
+			removeBackpack _player;
+			removeAllWeapons _player;
+			removeVest _player;
+			removeBackpack _player;
+			_player addBackpack "B_Carryall_oucamo";
+			_player addVest "V_PlateCarrierIAGL_dgtl";
+			_player forceAddUniform "U_I_GhillieSuit";
+			_player addWeapon "arifle_mas_g3s_m203";
+			_player addPrimaryWeaponItem "muzzle_mas_snds_M";
+			_player addPrimaryWeaponItem "acc_mas_pointer_IR_b";
+			_player addPrimaryWeaponItem "optic_Hamr";
+			_player addItem "HandGrenade";
+			_player addItem "HandGrenade";
+			_player addMagazine "20Rnd_mas_762x51_Stanag";
+			_player addMagazine "20Rnd_mas_762x51_Stanag";
+			_player addItem "1Rnd_HE_Grenade_shell";
+			_player addItem "1Rnd_HE_Grenade_shell";
+			_player addWeapon "hgun_mas_sa61_F";
+			_player addHandgunItem "muzzle_mas_snds_LM";
+			_player addHandgunItem "optic_mas_MRD";
+			_player addMagazine "20Rnd_mas_765x17_Mag";
+			_player addMagazine "20Rnd_mas_765x17_Mag";
+			_player addItem "Medikit";
+			_player addWeapon "Rangefinder";
+			_player addItem "FirstAidKit";
+			_player addItem "FirstAidKit";
+			_player addHeadgear "H_PilotHelmetHeli_O";
+			_player setObjectTextureGlobal  [0, "client\images\vehicleTextures\ant.jpg"];
+		};
 			
 		default
 		{
