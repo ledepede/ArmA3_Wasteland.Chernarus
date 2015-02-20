@@ -13,6 +13,17 @@ player createDiarySubject ["credits", "Credits"];
 
 player createDiaryRecord ["changelog",
 [
+"17 February 2015",
+"
+
+<br/> [Changed] Hack Laptop now steals from enemy players bank accounts
+<br/> [Changed] Dead NPCs will no longer take off their goggles
+
+"
+]];
+
+player createDiaryRecord ["changelog",
+[
 "15 February 2015",
 "
 
@@ -21,8 +32,6 @@ player createDiaryRecord ["changelog",
 <br/> [Added] 20 New Convoy Routes
 <br/> [Changed] Hack Laptop now steals from players bank accounts
 <br/> [Changed] Mission Objects should no longer delete after success
-
-
 
 "
 ]];
